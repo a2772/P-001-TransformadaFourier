@@ -36,7 +36,7 @@ int main(){
 			printf("\tn=%i\n",n);
 			aux=0;//Almacena el valor del cálculo
 			//Calculamos para cada n el valor real e imaginario
-			aux=(k*n*2*3.1415)/tam;
+			aux=(k*n*2*3.14159265)/tam;
 			real+=cos(aux)*in[n];
 			imaginaria-=sin(aux)*in[n];
 			printf("\t\t->aux=%lf\n",aux);
